@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <form action="process_payment.php" method="POST">
+            <div class="row">
+                <div class="column">
+                     <h3 class="title">Billing Address</h3>
+                     <div class="input-box">
+                        <span>Full Name</span>
+                        <input type="text" placeholder="Your Full Name">
+                    </div>
+                    <div class="input-box">
+                        <span>Email</span>
+                        <input type="email" placeholder="Your Email">
+                </div>
+                <div class="input-box">
+                        <span>Full Address</span>
+                        <input type="text" placeholder="Your Address">
+                    </div>
+                    <div class="input-box">
+                        <span>City</span>
+                        <input type="text" placeholder="Your City">
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                        <span>Country</span>
+                        <input type="text" placeholder="Your Country">
+                    </div>
+                    <div class="input-box">
+                        <span>Post Code</span>
+                        <input type="Number" placeholder="Your Post Code">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                     <h3 class="title">Payment</h3>
+                     <div class="input-box">
+                        <span><small style="color: gray;">Cards Accepted</small></span>
+                       <img src="payments.jpg">
+                    </div>
+                    <div class="input-box">
+                        <span>A/N</span>
+                        <input type="text" placeholder="A/N">
+                </div>
+                <div class="input-box">
+                        <span>Credit Number</span>
+                        <input type="number" placeholder="111 222 333">
+                    </div>
+                    <div class="input-box">
+                        <span>Helmet Color <small style="color: gray;">(optional)</small></span>
+                        <input type="text" placeholder="Black | Black Doff | White | Grey Stone">
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                        <span>Message</span>
+                        <input type="text" placeholder="type your Message here">
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                 <a href="berhasil.html" class="btn">Buy Now</a>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>
